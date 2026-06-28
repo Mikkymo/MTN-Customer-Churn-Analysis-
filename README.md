@@ -168,15 +168,7 @@ MTN-Customer-Churn-Analysis/
 
 ## 📊 Dashboard Preview
 
-> *(.)*
-
-Example:
-
-```
-images/dashboard-overview.png
-images/customer-insights.png
-images/churn-analysis.png
-```
+> *(mtn-customer-churn-dashboard.png)*
 
 ---
 
