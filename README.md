@@ -166,10 +166,6 @@ MTN-Customer-Churn-Analysis/
 
 ---
 
-## 📊 Dashboard Preview
-
-> *(mtn-customer-churn-dashboard.png)*
-
 ---
 
 ## 🚀 Business Value
