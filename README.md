@@ -197,11 +197,6 @@ I enjoy transforming raw data into actionable insights that help businesses make
 
 **https://linkedin.com/in/ogochukwuemeka
 
-### 📧 Email
-
-[my email](ogochukwuemekaokereke@gmail.com)
-
----
 
 ## ⭐ If you found this project useful
 
