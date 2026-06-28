@@ -199,7 +199,7 @@ I enjoy transforming raw data into actionable insights that help businesses make
 
 ### 📧 Email
 
-[your.email@example.com](ogochukwuemekaokereke@gmail.com)
+[my email](ogochukwuemekaokereke@gmail.com)
 
 ---
 
