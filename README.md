@@ -168,7 +168,7 @@ MTN-Customer-Churn-Analysis/
 
 ## 📊 Dashboard Preview
 
-> *(Add screenshots of your Power BI dashboards here.)*
+> *(.)*
 
 Example:
 
