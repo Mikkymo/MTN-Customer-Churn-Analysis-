@@ -2,9 +2,6 @@
 
 > **A Data-Driven Analysis of Customer Attrition, Revenue Impact & Retention Strategies**
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge\&logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?style=for-the-badge)
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?style=for-the-badge\&logo=powerbi)
 ![Excel](https://img.shields.io/badge/Microsoft%20Excel-Data%20Cleaning-success?style=for-the-badge\&logo=microsoft-excel)
 
 ---
