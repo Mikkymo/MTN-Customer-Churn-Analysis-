@@ -4,7 +4,14 @@
 
 The Excel workbook contains **974 simulated customer records**, purchase and revenue fields, a churn flag and reported reasons for churn. It is a portfolio exercise using MTN-themed sample data; the results are **not official MTN Nigeria statistics**.
 
-![Customer churn dashboard](images/customer-churn-dashboard.png)
+## Dashboard screenshots
+
+- [Open the customer churn dashboard screenshot](images/customer-churn-dashboard.png).
+- Additional original report screenshots: [page 1](images/report-page-1.png), [page 2](images/report-page-2.png), [page 3](images/report-page-3.png), [page 4](images/report-page-4.png).
+
+These are screenshots of the Excel report. The verified churn count and rate are documented below.
+
+![Original customer churn dashboard screenshot](images/customer-churn-dashboard.png)
 
 ## Method and findings
 
