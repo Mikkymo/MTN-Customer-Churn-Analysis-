@@ -1,205 +1,28 @@
-# 📊 MTN Nigeria Customer Churn Analysis
+# Telecom customer churn analysis
 
-> **A Data-Driven Analysis of Customer Attrition, Revenue Impact & Retention Strategies**
+**Question:** Which customer segments in a simulated telecom dataset show higher observed churn, and what should be investigated next?
 
-![Excel](https://img.shields.io/badge/Microsoft%20Excel-Data%20Cleaning-success?style=for-the-badge\&logo=microsoft-excel)
+The Excel workbook contains **974 simulated customer records**, purchase and revenue fields, a churn flag and reported reasons for churn. It is a portfolio exercise using MTN-themed sample data; the results are **not official MTN Nigeria statistics**.
 
----
+![Customer churn dashboard](images/customer-churn-dashboard.png)
 
-## 📌 Project Overview
+## Method and findings
 
-Customer retention is one of the most important drivers of profitability in the telecommunications industry. Acquiring new subscribers is significantly more expensive than retaining existing ones, making churn analysis a critical business function.
+Use [`customer-churn-analysis.xlsx`](customer-churn-analysis.xlsx) to filter by state, plan, device, tenure and satisfaction. Calculate churn as customers flagged `Yes` divided by all 974 records; document any exclusions. The workbook contains **284 `Yes` flags and 690 `No` flags**, yielding **29.2% observed churn** (284 / 974). The portfolio site previously claimed **35% at risk**, a different and undocumented concept; that wording has been removed.
 
-This project analyzes **974 MTN Nigeria customer records** collected during **Q1 2025 (January–March)** to identify the key drivers of customer churn, quantify its financial impact, and recommend actionable strategies to improve customer retention.
+Reported reasons can guide investigation into tariff perceptions, competing offers, network quality and service, but they cannot establish causality. The original README's annualised revenue-risk figure assumes a repeatable revenue period; treat it as a scenario only if the revenue definition and time period are confirmed.
 
-The analysis combines exploratory data analysis, business intelligence, and strategic recommendations to transform customer data into actionable business insights.
+## Decision use and limits
 
----
+Prioritise segments using both churn rates and segment sizes. Avoid treating a small group's high rate as equivalent to a larger group's total customer loss. Recommendations are proposals for a simulated case; no real retention impact was measured.
 
-## 🎯 Business Objectives
+## Files
 
-The project aimed to answer the following business questions:
+| File | Purpose |
+| --- | --- |
+| [`customer-churn-analysis.xlsx`](customer-churn-analysis.xlsx) | Excel data and analysis workbook |
+| [`images/customer-churn-dashboard.png`](images/customer-churn-dashboard.png) | Dashboard preview |
+| [`images/`](images/) | Additional report screens |
+| [`MTN_Churn_Analysis_Report.docx`](archive/MTN_Churn_Analysis_Report.docx) and [`MTN_Churn_Analysis.pptx`](archive/MTN_Churn_Analysis.pptx) | Report and presentation |
 
-* What is MTN Nigeria's overall customer churn rate?
-* Which factors contribute most to customer attrition?
-* Which customer segments are most at risk?
-* Which states experience the highest churn?
-* Which subscription plans lose the most customers?
-* What is the revenue impact of churn?
-* What strategic actions can reduce churn and improve customer loyalty?
-
----
-
-## 📂 Dataset
-
-**Source:** Simulated MTN Nigeria Customer Dataset
-
-**Analysis Period:** January – March 2025
-
-**Records:** 974 Customers
-
-The dataset contains customer information including:
-
-* Customer demographics
-* Device type
-* Subscription plan
-* Customer tenure
-* Satisfaction score
-* Data usage
-* Revenue generated
-* Churn status
-* Reasons for churn
-
----
-
-## 🛠️ Tools & Technologies
-
-* Python
-* Pandas
-* NumPy
-* Microsoft Excel
-* Power BI
-* Matplotlib
-* Seaborn
-* Jupyter Notebook
-
----
-
-## 📈 Analysis Performed
-
-The project includes:
-
-* Data Cleaning
-* Data Quality Assessment
-* Exploratory Data Analysis (EDA)
-* Customer Segmentation
-* Revenue Analysis
-* Geographic Analysis
-* Subscription Plan Analysis
-* Device Analysis
-* Demographic Analysis
-* Business Insight Generation
-* Strategic Recommendation Development
-
----
-
-## 🔑 Key Findings
-
-### Customer Churn
-
-* Overall churn rate: **29.2%**
-* 284 customers churned
-* 690 customers retained
-
----
-
-### Revenue Impact
-
-* Total Revenue: **₦199.3 Million**
-* Revenue Lost Through Churn: **₦58 Million**
-* Annualized Revenue Risk: **₦232 Million**
-
----
-
-### Major Drivers of Churn
-
-The leading causes of customer attrition were:
-
-* High call tariffs
-* Better competitor offers
-* Poor network quality
-* Expensive data plans
-* Poor customer service
-
-Pricing-related issues accounted for more than half of all customer departures.
-
----
-
-### Geographic Insights
-
-States with the highest churn rates included:
-
-* Adamawa
-* Imo
-* Kebbi
-
-These regions represent priority areas for network improvements and targeted retention campaigns.
-
----
-
-### Customer Segments at Highest Risk
-
-The analysis identified increased churn among:
-
-* Customers aged **36–45 years**
-* Mobile SIM users
-* Broadband subscribers on selected monthly plans
-
----
-
-## 💼 Business Recommendations
-
-The analysis recommends:
-
-* Review tariff and pricing structures
-* Improve network quality in high-risk states
-* Launch customer loyalty programs
-* Develop proactive retention campaigns
-* Improve customer service response times
-* Monitor churn continuously through dashboards
-
----
-
-## 📁 Repository Structure
-
-```
-MTN-Customer-Churn-Analysis/
-│
-├── data/
-├── notebooks/
-├── dashboard/
-├── images/
-├── report/
-├── README.md
-└── requirements.txt
-```
-
----
-
----
-
-## 🚀 Business Value
-
-This project demonstrates the ability to:
-
-* Transform raw business data into actionable insights
-* Analyze customer behavior using Python
-* Quantify business impact with data
-* Communicate findings through professional reporting
-* Develop evidence-based business recommendations
-* Build executive-ready analytics dashboards
-
----
-
-## 👨‍💻 About Me
-
-**Mike Okereke**
-
-Data Analyst | Business Intelligence Analyst | Python | SQL | Excel | Power BI
-
-I enjoy transforming raw data into actionable insights that help businesses make informed decisions.
-
-### 🌐 Portfolio
-
-**https://https://mikkymo.github.io/portfolio/
-
-### 💼 LinkedIn
-
-**https://linkedin.com/in/ogochukwuemeka
-
-
-## ⭐ If you found this project useful
-
-If you enjoyed this project or found it helpful, please consider giving the repository a ⭐.
-
-It helps others discover my work and supports my growing data analytics portfolio.
+**Analyst:** [Chukwuemeka Ogo](https://mikkymo.github.io/portfolio/) · [LinkedIn](https://www.linkedin.com/in/ogochukwuemeka/)
